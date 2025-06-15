@@ -62,7 +62,7 @@ lv_obj_t * settings_create(void)
     header_create(lv_obj_1, "Settings");
 
     lv_obj_t * row_1 = row_create(lv_obj_1);
-    lv_obj_set_style_bg_color(row_1, lv_color_hex(0xebebeb), LV_PART_MAIN | LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_color(row_1, lv_color_hex(0xbebebe), LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(row_1, 255, LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_pad_all(row_1, 12, LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_width(row_1, lv_pct(100));

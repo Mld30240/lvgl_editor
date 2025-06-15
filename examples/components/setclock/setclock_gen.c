@@ -45,7 +45,7 @@ lv_obj_t * setclock_create(lv_obj_t * parent)
     lv_obj_t * column_1 = column_create(lv_obj_1);
     lv_obj_set_style_flex_cross_place(column_1, LV_FLEX_ALIGN_CENTER, LV_PART_MAIN | LV_STATE_DEFAULT);
 
-    subtitle_create(column_1, "Hour");
+    subtitle_create(column_1, "Heure");
 
     lv_obj_t * lv_roller_1 = lv_roller_create(column_1);
     lv_roller_set_options(lv_roller_1, "0&#xA;1&#xA;2&#xA;3&#xA;4&#xA;5&#xA;6&#xA;7&#xA;8&#xA;9&#xA;10&#xA;11&#xA;12&#xA;13&#xA;14&#xA;15&#xA;16&#xA;17&#xA;18&#xA;19&#xA;20&#xA;21&#xA;22&#xA;23&#xA;24", LV_ROLLER_MODE_NORMAL);
